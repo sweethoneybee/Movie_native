@@ -40,3 +40,5 @@ export const tvApi = {
   serach: (query) => getAnything("/search/tv", { query }),
   show: (id) => getAnything(`/tv/${tv_id}`),
 };
+
+export const apiImage = (path) => `https://image.tmdb.org/t/p/w500${path}`;
