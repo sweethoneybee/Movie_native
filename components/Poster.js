@@ -12,6 +12,6 @@ const Image = styled.Image`
 const Poster = ({ url }) => <Image source={{ uri: apiImage(url) }} />;
 
 Poster.propTyes = {
-  url: PropTyes.string.isRequired,
+  url: PropTyes.string,
 };
 export default Poster;

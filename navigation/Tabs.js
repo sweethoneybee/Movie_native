@@ -10,7 +10,7 @@ import { Ionicons } from "@expo/vector-icons";
 const Tabs = createBottomTabNavigator();
 
 const getHeaderName = (route) =>
-  route?.state?.routeNames[route.state.index] || "Movies";
+  route?.state?.routeNames[route.state.index] || "Tv";
 
 export default ({ navigation, route }) => {
   useLayoutEffect(() => {

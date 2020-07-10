@@ -4,6 +4,10 @@ import styled from "styled-components/native";
 
 const TextInput = styled.TextInput`
   background-color: white;
+  margin: 0px 30px;
+  padding: 10px 10px;
+  border-radius: 51px;
+  margin-bottom: 50px;
 `;
 
 const Input = ({ placeholder, value, onChange, onSubmit }) => (
