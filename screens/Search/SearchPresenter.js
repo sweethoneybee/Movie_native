@@ -1,13 +1,18 @@
 import React from "react";
 import styled from "styled-components/native";
+import Input from "../../components/Search/Input";
 
 const Container = styled.ScrollView`
   background-color: black;
 `;
 
-const Text = styled.Text``;
-export default () => (
+export default ({ keyword, onChange, onSubmit }) => (
   <Container>
-    <Text>df</Text>
+    <Input
+      placeholder={"Write a keyword"}
+      value={keyword}
+      onChange={onChange}
+      onSubmit={onSubmit}
+    />
   </Container>
 );
